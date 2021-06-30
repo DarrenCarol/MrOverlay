@@ -1,0 +1,7 @@
+custom_viewport_width = "1152"
+custom_viewport_height = "1080"
+custom_viewport_y = "0"
+custom_viewport_x = "384"
+input_overlay = ":\overlays\snes.cfg"
+aspect_ratio_index = "23"
+video_scale_integer = "false"
