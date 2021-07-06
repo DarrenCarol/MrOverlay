@@ -1,2 +1,2 @@
 <h2>Mr. Overlay</h2><BR>Mr. Overlay is an ongoing project bringing fine Artwork, Bezels, Wallpapers and more to your retro gaming setup. New content is frequently being added, so make sure you star the project to get the latest updates.<BR><BR>
-Want to be super-awesome and donate to the project? You can do so via my Ko-Fi Page!<BR><BR><iframe src='https://ko-fi.com/mroverlay/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='mroverlay'></iframe>
+Want to be super-awesome and donate to the project? You can do so via my Ko-Fi Page!<BR><BR><a href="https://ko-fi.com/mroverlay">Mr. Overlay on Ko-Fi</a>
