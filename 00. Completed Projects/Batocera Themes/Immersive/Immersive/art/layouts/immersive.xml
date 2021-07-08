@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		<carousel name="systemcarousel">
+		<maxLogoCount>1</maxLogoCount>
+		<type>horizontal</type>
+		<defaultTransition>fade</defaultTransition>
+		  <color>00000000</color>
+		  <colorEnd>00000000</colorEnd>
+		  <systemInfoDelay>200</systemInfoDelay>
+		  <pos>0.04 0.06</pos>
+		  <size>0.31 0.23</size>
+		  <zIndex>20</zIndex>
+		</carousel>
+
+    <video name="videobox" extra="true">
+      <path>{random}</path>
+      <delay>0.1</delay>
+      <pos>0.5 0.475</pos>
+      <origin>0.5 0.5</origin>
+      <minSize>1 1</minSize>
+      <color>999999EE</color>
+      <effect>none</effect>
+      <visible>true</visible>
+    </video>
+
+		<text name="systemInfo" extra="true">
+		<visible>false</visible>
+		</text>
+
+
+
+
+ <text name="systemInfoEx" extra="true">
+ <text>Total games : {binding:total}
+Total played : {binding:gamesPlayed}
+Favorites : {binding:favorites}
+Most played : {binding:mostPlayed}</text>        
+<alignment>left</alignment>
+<verticalAlignment>center</verticalAlignment>
+<forceUppercase>1</forceUppercase>
+<fontPath>./art/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+<fontSize>0.02</fontSize>
+<pos>0.04 0.74</pos>
+<size>0.92 0.28</size>
+<zIndex>100</zIndex>
+<color>D0D0D0FF</color>
+<glowColor>000000A0</glowColor>
+<glowSize>0</glowSize>
+</text>
+	</view>
+
+		
+	<view name="detailed">
+<image name="logo">
+<pos>0.5 0.09</pos>
+<origin>0.5 0.5</origin>
+<maxSize>0.35 0.17</maxSize>
+</image>
+
+	<video name="md_video">
+      <pos>0.5 0.475</pos>
+      <origin>0.5 0.5</origin>
+      <minSize>1.0 1.0</minSize>
+	<color>ffffff66</color>
+      <visible>true</visible>
+	</video>
+
+	<text name="md_description">
+	<color>FFFFFF</color>
+	<pos>0.170 0.75</pos>
+	<size>0.66 0.24</size>
+	<lineSpacing>1.4</lineSpacing>
+	<fontSize>0.024</fontSize>	<fontPath>./art/fonts/ubuntu_medium.ttf</fontPath>
+	</text>
+
+<text name="md_lastplayed, md_developer, md_genre, md_playcount, md_gametime">
+<color>ECECEC</color>
+<fontPath>./art/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+<fontSize>0.02</fontSize>
+</text>
+
+<image name="game-meta" extra="true">
+<pos>0.62 0.43</pos>
+<size>0.032 0.27</size>
+<path>./art/assets/infostrip.png</path>
+<color>ffffff</color>
+<zIndex>100</zIndex>
+</image>
+
+
+<image name="md_image">
+<pos>0.28 0.72</pos>
+<origin>0.5 1.0</origin>
+<color>FFFFFFFF</color>
+<colorEnd>DDDDDDDD</colorEnd>
+<maxSize>0.20 0.48</maxSize>
+<zIndex>100</zIndex>
+</image>
+
+
+<image name="md_marquee">
+<pos>0.5 0.65</pos>
+<origin>0.5 0.5</origin>
+<maxSize>0.21 0.15</maxSize>
+<zIndex>100</zIndex>
+</image>
+
+<rating name="md_rating">
+<pos>0.83 0.04</pos>
+<size>0.05 0.05</size>
+<filledPath>./art/assets/rating_filled.svg</filledPath>
+<unfilledPath>./art/assets/rating_empty.svg</unfilledPath>
+</rating>
+
+<text name="md_developer">
+<textalign>right</textalign>
+<pos>0.66 0.435</pos>
+</text>
+
+<text name="md_genre">
+<pos>0.66 0.487</pos>
+<Size>0.15 0.05</Size>
+</text>
+
+<datetime name="md_lastplayed">
+<pos>0.66 0.539</pos>
+</datetime>
+
+<text name="md_playcount">
+<pos>0.66 0.593</pos>
+</text>
+
+<text name="md_gametime">
+<pos>0.66 0.645</pos>
+</text>
+
+<image name="controller_icon" extra="true">
+<pos>0.04 0.03</pos>
+<size>0.04 0.06</size>
+<path>./art/assets/controller.png</path>
+<color>ffffff</color>
+<zIndex>100</zIndex>
+</image>
+
+<text name="md_players">
+<pos>0.09 0.04</pos>
+<color>CCCCCC</color>
+<fontPath>./art/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+<fontSize>0.03</fontSize>
+</text>
+
+	<textlist name="gamelist">
+	<pos>1.0 1.0</pos>
+	</textlist>
+
+
+</view>
+</theme>

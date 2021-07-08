@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<theme>
+    <formatVersion>4</formatVersion>
+    <view name="menu">
+        <menuIcons name="menuicons">
+            <iconKodi>./Kodi.png</iconKodi>
+            <iconSystem>./System.png</iconSystem>
+            <iconUpdates>./Updates.png</iconUpdates>
+            <iconGames>./Games.png</iconGames>
+            <iconControllers>./Controllers.png</iconControllers>
+            <iconUI>./UI.png</iconUI>
+            <iconSound>./Sound.png</iconSound>
+            <iconNetwork>./Network.png</iconNetwork>
+            <iconScraper>./Scraper.png</iconScraper>
+            <iconAdvanced>./Advanced.png</iconAdvanced>
+            <iconQuit>./Quit.png</iconQuit>
+            <iconRestart>./Restart.png</iconRestart>
+            <iconShutdown>./Shutdown.png</iconShutdown>
+            <iconFastShutdown>./Fastshutdown.png</iconFastShutdown>
+            <iconRetroachievements>./Contest.png</iconRetroachievements>
+        </menuIcons>
+        <menuTextEdit name="menutextedit">
+            <inactive>./textinput_ninepatch.png</inactive>
+            <active>./textinput_ninepatch_active.png</active>
+        </menuTextEdit>
+    </view>
+</theme>
