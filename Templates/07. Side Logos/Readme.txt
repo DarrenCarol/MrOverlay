@@ -1,5 +1,4 @@
 Bezel Packs by Mr. Overlay:
-https://mroverlay.org
 
 
 Installation Instructions:

@@ -1,5 +1,4 @@
 Dynamic Wallpapers by Mr. Overlay:
-http://MrOverlay.org
 
 
 Installation Instructions:
