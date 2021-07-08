@@ -1,0 +1,7 @@
+custom_viewport_width = "663"
+custom_viewport_height = "911"
+custom_viewport_y = "89"
+custom_viewport_x = "629"
+input_overlay = ":\overlays\3ds.cfg"
+aspect_ratio_index = "23"
+video_scale_integer = "false"

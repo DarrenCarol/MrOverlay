@@ -8,6 +8,8 @@ Place the .png and .info files in the "/share/decorations/systems" directory (cr
 
 
 Changelog: 
+- 08/07/21: Nintendo 3DS Added.
+
 - 26/03/21: Watara Supervision Added.
 
 - 18/02/21: NGPC and NGP CFG files updated to fit the screen correctly. Large Screen Handhelds and Neo Geo MVS added.
@@ -39,6 +41,7 @@ NEC – PC Engine / TurboGrafx16
 NEC – PC Engine CD / TurboGrafx16 CD
 NEC - PC-9800
 NEC – SuperGrafx
+Nintendo - 3DS
 Nintendo – DS
 Nintendo – 64
 Nintendo – Famicom
