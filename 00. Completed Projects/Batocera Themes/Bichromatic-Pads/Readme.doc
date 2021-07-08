@@ -1,9 +1,0 @@
-Batocera Themes by Mr. Overlay
-https://MyOverlay.org
-Inside the zip folder theres a single folder. Paste this folder and its contents into the theme directory.
-On Batocera:
-/share/themes
-On RetroBat:
-C:\RetroBat\emulationstation\.emulationstation\themes
-Launch Batocera / RetroBat. Go to Main Menu > UI Settings > Theme Set. Select the newly added theme and restart.
-Need support? You can get further help at https://MrOverlay.org/setup/

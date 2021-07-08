@@ -1,0 +1,7 @@
+custom_viewport_width = "1589"
+custom_viewport_height = "900"
+custom_viewport_x = "90"
+custom_viewport_y = "166"
+input_overlay = ":\overlays\psp.cfg"
+aspect_ratio_index = "23"
+video_scale_integer = "false"

@@ -1,0 +1,7 @@
+custom_viewport_width = "948"
+custom_viewport_height = "900"
+custom_viewport_x = "486"
+custom_viewport_y = "90"
+input_overlay = ":\overlays\ngpc.cfg"
+aspect_ratio_index = "23"
+video_scale_integer = "false"

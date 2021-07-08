@@ -1,0 +1,7 @@
+custom_viewport_width = "810"
+custom_viewport_height = "1080"
+custom_viewport_y = "0"
+custom_viewport_x = "555"
+input_overlay = ":\overlays\arcadevert.cfg"
+aspect_ratio_index = "23"
+video_scale_integer = "false"

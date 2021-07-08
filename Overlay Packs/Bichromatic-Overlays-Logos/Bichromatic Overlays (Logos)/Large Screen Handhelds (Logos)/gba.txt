@@ -1,0 +1,7 @@
+custom_viewport_width = "1260"
+custom_viewport_height = "840"
+custom_viewport_x = "120"
+custom_viewport_y = "330"
+input_overlay = ":\overlays\gba.cfg"
+aspect_ratio_index = "23"
+video_scale_integer = "true"

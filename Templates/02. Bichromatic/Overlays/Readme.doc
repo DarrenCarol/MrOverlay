@@ -1,0 +1,80 @@
+Discord:
+https://discord.gg/bRVUB8VG6K
+
+My Other Work & Doante:
+https://ko-fi.com/MrOverlay
+
+
+1. For RetroArch / Lakka / RetroPie
+Place the the .cfg and .png files into RetroArch's overlay folder. Add the contents of each .txt file to the relevant cores .cfg file, updating the filepath accordingly. You do not need any further files from the zip.
+
+2. For Batocera
+Place the .png and .info files in the "/share/decorations/systems" directory (create the "systems" folder if it doesn't exist already). You do not need any further files from the zip.
+
+Changelog: 
+- 26/03/21: Watara Supervision Added.
+
+- 18/02/21: NGPC and NGP CFG files updated to fit the screen correctly. Large Screen Handhelds and Neo Geo MVS added.
+
+- 14/02/21: Phillips CD-i and Neo Geo AES added.
+
+- 12/02/21: Fairchild Channel F, Nintendo Wii & PC Engine CD/TurboGrafx CD added.
+
+Included Systems:
+Arcade (MAME / FBNeo / Naomi) (Portrait, Landscape and Double Wide)
+Atari - 2600
+Atari - 5200
+Atari - 7800
+Atari - Jaguar
+Atari - Lynx
+Atari - ST
+Bandai WonderSwan Color (Portrait & Landscape)
+Bandai WonderSwan (Portrait & Landscape)
+Commodore - Amiga
+Commodore – C64
+Coleco – ColecoVision
+Fairchild - Channel F
+GCE – Vectrex
+Magnavox – Odyssey2
+Mattel Intellivision
+MS-DOS
+MSX
+NEC – PC Engine / TurboGrafx16
+NEC – PC Engine CD / TurboGrafx16 CD
+NEC - PC-9800
+NEC – SuperGrafx
+Nintendo – DS
+Nintendo – 64
+Nintendo – Famicom
+Nintendo – Famicom Disk System
+Nintendo – Game Boy
+Nintendo – Game Boy Color
+Nintendo – Game Boy Advance
+Nintendo – GameCube
+Nintendo – Nintendo Entertainment System
+Nintendo – Super Nintendo Entertainment System
+Nintendo – Super Famicom
+Nintendo – Virtual Boy
+Nintendo - Wii
+Phillips - CD-i
+ScummVM
+Sega – 32X
+Sega – Dreamcast
+Sega – Game Gear
+Sega – Genesis / Mega Drive
+Sega – Master System
+Sega – Saturn
+Sega – Sega CD / Mega CD
+Sega – SG-1000
+Sharp - X68000
+Sinclair – ZXSpectrum
+SNK - Neo Geo AES
+SNK - Neo Geo CD
+SNK – Neo Geo Pocket
+SNK – Neo Geo Pocket Color
+SNK - Neo Geo MVS 
+Sony – PlayStation
+Sony – PlayStation Portable
+Sony – PlayStation 2
+The 3DO Company - 3DO
+Watara - Supervision

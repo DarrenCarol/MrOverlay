@@ -1,0 +1,7 @@
+custom_viewport_width = "824"
+custom_viewport_height = "1024"
+custom_viewport_y = "27"
+custom_viewport_x = "547"
+input_overlay = ":\overlays\vectrex.cfg"
+aspect_ratio_index = "23"
+video_scale_integer = "false"

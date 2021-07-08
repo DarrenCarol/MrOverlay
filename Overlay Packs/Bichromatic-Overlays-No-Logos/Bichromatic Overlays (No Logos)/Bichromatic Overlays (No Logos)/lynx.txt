@@ -1,0 +1,7 @@
+custom_viewport_width = "1098"
+custom_viewport_height = "700"
+custom_viewport_x = "190"
+custom_viewport_y = "411"
+input_overlay = ":\overlays\lynx.cfg"
+aspect_ratio_index = "23"
+video_scale_integer = "false"

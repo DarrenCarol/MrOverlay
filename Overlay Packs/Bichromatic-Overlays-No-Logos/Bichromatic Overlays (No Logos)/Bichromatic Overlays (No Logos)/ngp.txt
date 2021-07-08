@@ -1,0 +1,7 @@
+custom_viewport_width = "737"
+custom_viewport_height = "700"
+custom_viewport_x = "590"
+custom_viewport_y = "190"
+input_overlay = ":\overlays\ngp.cfg"
+aspect_ratio_index = "23"
+video_scale_integer = "false"
