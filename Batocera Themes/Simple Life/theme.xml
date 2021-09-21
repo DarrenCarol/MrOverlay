@@ -4,184 +4,179 @@ Theme: No Flash
 Author: Mr. Overlay
 -->
 <theme>
-  <formatVersion>7</formatVersion>
-  <view name="screen">
-    <text name="clock">
-      <pos>0.92 0.95</pos>
-      <size>0.07 0.025</size>
-      <fontSize>0.025</fontSize>
-      <color>FFFFFFC0</color>
-      <horizontalAlignment>center</horizontalAlignment>
-      <verticalAlignment>center</verticalAlignment>
-      <fontPath>./assets/SST.ttf</fontPath>
-      <fontSize>0.04</fontSize>
-    </text>
-    <controllerActivity name="controllerActivity">
-      <pos>0.832 0.025</pos>
-      <size>0.085 0.025</size>
-      <horizontalAlignment>right</horizontalAlignment>
-      <itemSpacing>0.003</itemSpacing>
-      <imagePath>./assets/gamepad.svg</imagePath>
-      <color>FFFFFF80</color>
-      <activityColor>A0A0FFC0</activityColor>
-      <hotkeyColor>FFA0A0C0</hotkeyColor>
-    </controllerActivity>
-  </view>
-  <view name="menu">
-    <menuText name="menutitle">
-      <fontPath>./assets/noto.ttf</fontPath>
-      <fontSize>0.044</fontSize>
-      <color>ffffff</color>
-    </menuText>
-    <menuText name="menufooter">
-      <fontPath>./assets/SST.ttf</fontPath>
-      <fontSize>0.02</fontSize>
-    </menuText>
-    <menuText name="menutext">
-      <fontPath>./assets/SST.ttf</fontPath>
-      <fontSize>0.025</fontSize>
-      <color>A6C6D1</color>
-      <selectorColor>0F85A5</selectorColor>
-      <selectorColorEnd>0F6585</selectorColorEnd>
-      <selectedColor>ffffff</selectedColor>
-      <separatorColor>0C3F53</separatorColor>
-    </menuText>
-    <menuTextSmall name="menutextsmall">
-      <fontPath>./assets/SST.ttf</fontPath>
-      <fontSize>0.02</fontSize>
-    </menuTextSmall>
-    <menuBackground name="menubg">
-      <color>333333</color>
-      <cornerSize>52 52</cornerSize>
-      <path>./assets/frame.png</path>
-    </menuBackground>
-  </view>
-  <view name="system">
-    <image name="staticBackground">
-      <size>1 1</size>
-      <pos>0 0</pos>
-      <origin>0 0</origin>
-      <tile>false</tile>
-      <linearSmooth>true</linearSmooth>
-      <path>./assets/bg.png</path>
-      <zIndex>0</zIndex>
+<formatVersion>7</formatVersion>
+<view name="screen">
 
-    </image>
-    <helpsystem name="help">
-      <textColor>FFFFFF90</textColor>
-      <iconColor>FFFFFF90</iconColor>
-    </helpsystem>
-    <image name="logo">
-      <path>./art/${system.theme}.svg</path>
-      <reflexion>0.0 0.0</reflexion>
-      <!-- <verticalAlignment>bottom</verticalAlignment> -->
-      <reflexionOnFrame>true</reflexionOnFrame>
-    </image>
-    <text name="logoText">
-      <fontPath>./assets/miss.ttf</fontPath>
-      <fontSize>0.092</fontSize>
-      <color>FFFFFFFF</color>
-      <reflexion>0.16 0.0</reflexion>
-      <reflexionOnFrame>true</reflexionOnFrame>
-    </text>
-  </view>
-  <view name="basic">
-    <text name="description" extra="true">
-      <pos>0.605 0.685</pos>
-      <size>0.347 0.183</size>
-      <alignment>center</alignment>
-      <color>ffffff</color>
-      <fontSize>0.015</fontSize>
-      <text>No Information Available</text>
-      <fontPath>./assets/noto.ttf</fontPath>
-    </text>
-    <image name="none" extra="true">
-      <origin>0.5 0.5</origin>
-      <pos>0.776 0.388</pos>
-      <maxSize>0.347 0.46</maxSize>
-      <path>./assets/no_boxart.png</path>
-    </image>
-  </view>
-  <view name="basic, detailed, grid">
-    <helpsystem name="help">
-      <textColor>FFFFFF90</textColor>
-      <iconColor>FFFFFF90</iconColor>
-    </helpsystem>
-    <image name="background" extra="true">
-      <size>1 1</size>
-      <pos>0 0</pos>
-      <origin>0 0</origin>
-      <path>./assets/bg.png</path>
-      <zIndex>0</zIndex>
-      <color>CCCCCC</color>
-    </image>
-    <image name="backgroundx" extra="true">
-      <size>1 1</size>
-      <pos>0 0</pos>
-      <origin>0 0</origin>
-      <path>./assets/gamelist.png</path>
-    </image>
+<!-- Hidden Elements -->
+<text name="clock">
+<pos>1.0 1.0</pos>
+</text>
+
+<controllerActivity name="controllerActivity">
+<pos>1.0 1.0</pos>
+</controllerActivity>
+</view>
+
+
+
+<!-- Pop Up Menu -->
+
+<view name="menu">
+<menuText name="menutitle">
+<fontPath>./assets/noto.ttf</fontPath>
+<fontSize>0.044</fontSize>
+<color>ffffff</color>
+</menuText>
+
+<menuText name="menufooter">
+<fontPath>./assets/SST.ttf</fontPath>
+<fontSize>0.02</fontSize>
+</menuText>
+<menuText name="menutext">
+<fontPath>./assets/SST.ttf</fontPath>
+<fontSize>0.025</fontSize>
+<color>A6C6D1</color>
+<selectorColor>0F85A5</selectorColor>
+<selectorColorEnd>0F6585</selectorColorEnd>
+<selectedColor>ffffff</selectedColor>
+<separatorColor>0C3F53</separatorColor>
+</menuText>
+
+<menuTextSmall name="menutextsmall">
+<fontPath>./assets/SST.ttf</fontPath>
+<fontSize>0.02</fontSize>
+</menuTextSmall>
+<menuBackground name="menubg">
+<color>333333</color>
+<cornerSize>52 52</cornerSize>
+<path>./assets/frame.png</path>
+</menuBackground>
+</view>
+
+<view name="system">
+<image name="staticBackground">
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<tile>false</tile>
+<linearSmooth>true</linearSmooth>
+<path>./assets/bg.png</path>
+<zIndex>0</zIndex>
+</image>
+
+
+
+
+<!-- Hidden Help Menu -->
+<helpsystem name="help">
+<pos>1.0 1.0</pos>
+</helpsystem>
+
+
+<!-- Logos -->
+<image name="logo">
+<path>./art/${system.theme}.svg</path>
+</image>
+
+<text name="logoText">
+<fontPath>./assets/miss.ttf</fontPath>
+<fontSize>0.092</fontSize>
+<color>FFFFFFFF</color>
+</text>
+</view>
+
+<view name="detailed">
+
+<!-- Help in Game Menu -->
+<helpsystem name="help">
+<size>1.0 0.1</size>
+<pos>0.05 0.93</pos>
+</helpsystem>
+
+
+
+<image name="background" extra="true">
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./assets/bg.png</path>
+<zIndex>0</zIndex>
+<color>CCCCCC</color>
+</image>
+
+<image name="backgroundx" extra="true">
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./assets/gamelist.png</path>
+</image>
+
 <image name="console" extra="true">
-			<pos>0.5 0.04</pos>
-			<origin>0.5 0.0</origin>
-			<maxSize>0.34 0.08</maxSize>
-			<path>./art/${system.theme}.svg</path>
-			<zIndex>150</zIndex>
-		</image>
-        <text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate">
-      <visible>true</visible>
-    </text>
-    
-    <image name="md_thumbnail">
-      <visible>false</visible>
-      <origin>0.5 0.5</origin>
-      <pos>0.5 0.5</pos>
-      <minSize>1.25 1.25</minSize>
-      <color>FFFFFF0A</color>
-    </image>
-    <video name="md_video">
-      <origin>0.5 0.5</origin>
-      <pos>0.776 0.388</pos>
-      <maxSize>0.347 0.46</maxSize>
-      <delay>0.7</delay>
-      <showSnapshotNoVideo>true</showSnapshotNoVideo>
-      <showSnapshotDelay>true</showSnapshotDelay>
-      <snapshotSource>image</snapshotSource>
-    </video>
-    <text name="md_description">
-      <pos>0.605 0.685</pos>
-      <size>0.347 0.183</size>
-      <color>ffffff</color>
-      <fontSize>0.021</fontSize>
-      <fontPath>./assets/noto.ttf</fontPath>
-    </text>
-    <image name="logo">
-      <pos>1 1</pos>
-      <color>00000000</color>
-      <path>./assets/box.png</path>
-    </image>
-  </view>
-  <view name="basic, detailed">
-    <textlist name="gamelist">
-      <selectorColor>0f85a5</selectorColor>
-      <selectorColorEnd>0F6585</selectorColorEnd>
-      <selectedColor>ffffff</selectedColor>
-      <primaryColor>ffffff</primaryColor>
-      <secondaryColor>ffffff</secondaryColor>
-      <fontPath>./assets/SST.ttf</fontPath>
-      <fontSize>0.022</fontSize>
-      <pos>0.051 0.170</pos>
-      <size>0.21 0.70</size>
-      <alignment>left</alignment>
-      <horizontalMargin>0.01</horizontalMargin>
-      <origin>0 0</origin>
-      <lineSpacing>2.1</lineSpacing>
-      <selectorImagePath>./assets/box.png</selectorImagePath>
-      <selectorOffsetY>-0.01</selectorOffsetY>
-      <selectorHeight>0.052</selectorHeight>
-    </textlist>
+<pos>0.5 0.04</pos>
+<origin>0.5 0.0</origin>
+<maxSize>0.34 0.08</maxSize>
+<path>./art/${system.theme}.svg</path>
+<zIndex>150</zIndex>
+</image>
 
-<!--Info Cards-->
+<image name="md_thumbnail">
+<visible>false</visible>
+<origin>0.5 0.5</origin>
+<pos>0.5 0.5</pos>
+<minSize>1.25 1.25</minSize>
+<color>FFFFFF0A</color>
+</image>
+<video name="md_video">
+<origin>0.5 0.5</origin>
+<pos>0.776 0.388</pos>
+<maxSize>0.347 0.46</maxSize>
+<delay>0.7</delay>
+<showSnapshotNoVideo>true</showSnapshotNoVideo>
+<showSnapshotDelay>true</showSnapshotDelay>
+<snapshotSource>image</snapshotSource>
+</video>
+
+<text name="md_description">
+<pos>0.605 0.685</pos>
+<size>0.347 0.183</size>
+<color>ffffff</color>
+<fontSize>0.021</fontSize>
+<fontPath>./assets/noto.ttf</fontPath>
+</text>
+<image name="logo">
+<pos>1 1</pos>
+<color>00000000</color>
+<path>./assets/box.png</path>
+</image>
+</view>
+
+  <view name="detailed">
+  <textlist name="gamelist">
+  <selectorColor>0f85a5</selectorColor>
+  <selectorColorEnd>0F6585</selectorColorEnd>
+  <selectedColor>ffffff</selectedColor>
+  <primaryColor>ffffff</primaryColor>
+  <secondaryColor>ffffff</secondaryColor>
+  <fontPath>./assets/SST.ttf</fontPath>
+  <fontSize>0.022</fontSize>
+  <pos>0.051 0.170</pos>
+  <size>0.21 0.70</size>
+  <alignment>left</alignment>
+  <horizontalMargin>0.01</horizontalMargin>
+  <origin>0 0</origin>
+  <lineSpacing>2.1</lineSpacing>
+  <selectorImagePath>./assets/box.png</selectorImagePath>
+  <selectorOffsetY>-0.01</selectorOffsetY>
+  <selectorHeight>0.052</selectorHeight>
+  </textlist>
+
+<!--Info Card-->
+<image name="md_marquee">
+<pos>0.43 0.225</pos>
+<maxSize>0.26 0.1</maxSize>
+<origin>0.5 0.5</origin>
+</image>
+
 <text name="md_lbl_releasedate">
 <pos>0.3 0.28</pos>
 <size>0.125 0.10</size>
@@ -337,94 +332,30 @@ Author: Mr. Overlay
 <maxsize>0.15 0.10</maxsize>
 <filledPath>./art/rating_filled.svg</filledPath>
 <unfilledPath>./art/rating_unfilled.svg</unfilledPath>
-</rating>
-
-<image name="md_marquee">
-<pos>0.43 0.225</pos>
-<maxSize>0.26 0.1</maxSize>
-<origin>0.5 0.5</origin>
-</image>	
+</rating>	
+</view>
 
 
-  </view>
-  <view name="grid">
-    <image name="md_image">
-      <visible>false</visible>
-    </image>
-    <datetime name="md_releasedate, md_lastplayed">
-      <color>ffffffFF</color>
-    </datetime>
-       <text name="md_name">
-      <color>ffffffff</color>
-      <pos>0.051 0.16</pos>
-      <size>0.50 0.07</size>
-      <alignment>center</alignment>
-      <glowColor>00000005</glowColor>
-      <glowSize>3</glowSize>
-    </text>
-    <imagegrid name="gamegrid">
-      <pos>0.047 0.200</pos>
-      <size>0.51 0.67</size>
-      <margin>0.005 0.010</margin>
-      <padding>0.03 0.05 0.03 0.04</padding>
-      <autoLayout>3 1</autoLayout>
-      <autoLayoutSelectedZoom>1.40</autoLayoutSelectedZoom>
-      <animateSelection>false</animateSelection>
-      <scrollDirection>horizontal</scrollDirection>
-      <centerSelection>true</centerSelection>
-      <scrollLoop>true</scrollLoop>
-    </imagegrid>
-    <gridtile name="default">
-      <backgroundColor>FFFFFF00</backgroundColor>
-      <backgroundCornerSize>9 9</backgroundCornerSize>
-      <selectionMode>image</selectionMode>
-      <padding>5 5</padding>
-      <imageColor>FFFFFF90</imageColor>
-      <reflexion>0.24 0.0</reflexion>
-    </gridtile>
-    <gridtile name="selected">
-      <backgroundColor>FFFFFF00</backgroundColor>
-      <imageColor>FFFFFFFF</imageColor>
-    </gridtile>
-    <!--
-    <text name="gridtile">
-      <color>D0D0D0</color>
-      <backgroundColor>00000000</backgroundColor>
-      <fontSize>0.022</fontSize>
-      <alignment>center</alignment>
-      <size>1 0.24</size>
-    </text>
-    <text name="gridtile_selected">
-      <color>FFFFFF</color>
-      <glowColor>${glowColor}</glowColor>
-      <glowSize>3</glowSize>
-    </text>-->
-  </view>
-  <view name="system">
-    <carousel name="systemcarousel">
-      <type>horizontal</type>
-      <pos>0 0.2</pos>
-      <size>1 0.3925</size>
-      <origin>0 0</origin>
-      <color>00000000</color>
-      <logoScale>1</logoScale>
-      <logoSize>0.25 0.155</logoSize>
-      <logoPos>-1 0</logoPos>
-    </carousel>
-    <text name="systemInfo">
-      <pos>0 0.83</pos>
-      <size>1 0.25</size>
-      <backgroundColor>00000000</backgroundColor>
-      <color>ffffff</color>
-      <fontPath>./assets/SST.ttf</fontPath>
-      <fontSize>0.03</fontSize>
-    </text>
-  </view>
-  <subset name="background">
-    <include name="default"/>
-    <include name="earth">./assets/bg2.xml</include>
-    <include name="abstract">./assets/bg4.xml</include>
-    <include name="vinyl">./assets/bg1.xml</include>
-    <include name="lake">./assets/bg3.xml</include>
-  </subset>
+<!-- System -->
+<view name="system">
+<carousel name="systemcarousel">
+<type>horizontal</type>
+<pos>0 0.2</pos>
+<size>1 0.3925</size>
+<origin>0 0</origin>
+<color>00000000</color>
+<logoScale>1</logoScale>
+<logoSize>0.25 0.155</logoSize>
+<logoPos>-1 0</logoPos>
+</carousel>
+
+<text name="systemInfo">
+<pos>0 0.83</pos>
+<size>1 0.25</size>
+<backgroundColor>00000000</backgroundColor>
+<color>ffffff</color>
+<fontPath>./assets/SST.ttf</fontPath>
+<fontSize>0.03</fontSize>
+</text>
+</view>
 </theme>
