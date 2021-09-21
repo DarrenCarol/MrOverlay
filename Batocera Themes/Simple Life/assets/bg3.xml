@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>4</formatVersion>
+  <view name="system">
+    <image name="staticBackground">
+      <path>./bg3.png</path>
+      <color>808080</color>
+    </image>
+ <carousel name="systemcarousel">
+        <pos>0 0.48</pos>
+      <size>1 0.3925</size>
+    </carousel>
+  </view>
+  <view name="basic, detailed, grid">
+    <image name="background" extra="true">
+      <path>./bg3.png</path>
+      <color>808080</color>
+    </image>
+  </view>
+</theme>

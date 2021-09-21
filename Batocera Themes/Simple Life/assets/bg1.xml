@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>4</formatVersion>
+  <view name="system">
+    <image name="staticBackground">
+      <path>./bg1.png</path>
+    </image>
+
+    <image name="logo">
+      <reflexion>0 0</reflexion>
+    </image>
+    <text name="logoText">
+      <reflexion>0 0</reflexion>
+    </text>
+    <carousel name="systemcarousel">
+      <type>horizontal_wheel</type>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <color>00000000</color>
+      <logoScale>1.25</logoScale>
+      <logoSize>0.25 0.25</logoSize>
+      <logoPos>0.3 0.35</logoPos>
+      <logoRotation>30</logoRotation>
+      <logoRotationOrigin>2 2</logoRotationOrigin>
+      <logoAlignment>center</logoAlignment>
+      <maxLogoCount>6</maxLogoCount>
+    </carousel>
+  <text name="systemInfo">
+      <pos>0 0.1</pos>
+      <size>0.3 0.1</size>
+    </text>
+  </view>
+  <view></view>
+  <view name="basic, detailed, grid">
+    <image name="background" extra="true">
+      <path>./bg1.png</path>
+    </image>
+  </view>
+</theme>
