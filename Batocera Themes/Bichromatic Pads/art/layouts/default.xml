@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system">
+		<carousel name="systemcarousel">
+		<maxLogoCount>1</maxLogoCount>
+		<type>horizontal</type>
+		<defaultTransition>fade</defaultTransition>
+		  <color>00000000</color>
+		  <colorEnd>00000000</colorEnd>
+		  <systemInfoDelay>200</systemInfoDelay>
+		  <pos>0.04 0.06</pos>
+		  <size>0.31 0.23</size>
+		  <zIndex>20</zIndex>
+		</carousel>
+
+		<text name="systemInfo" extra="true">
+		<delay>0</delay>
+		  <pos>0.4 0.85</pos>
+		  <size>1 0.1</size>
+		  <backgroundColor>0000FF00</backgroundColor>
+		  <color>DDDDDD00</color>
+		  <glowColor>00000000</glowColor>
+		  <glowSize>5</glowSize>
+		  <reflexion>0.00 0.0</reflexion>
+		</text>
+
+
+
+
+ <text name="systemInfoEx" extra="true">
+ <text>Total games : {binding:total}
+Total played : {binding:gamesPlayed}
+Favorites : {binding:favorites}
+Most played : {binding:mostPlayed}</text>        
+<alignment>left</alignment>
+<verticalAlignment>center</verticalAlignment>
+<forceUppercase>1</forceUppercase>
+<fontPath>./art/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+<fontSize>0.02</fontSize>
+<pos>0.04 0.74</pos>
+<size>0.92 0.28</size>
+<zIndex>100</zIndex>
+<color>D0D0D0FF</color>
+<glowColor>000000A0</glowColor>
+<glowSize>0</glowSize>
+</text>
+
+
+
+
+	</view>
+		
+	<view name="detailed">
+		<image name="back-logo" extra="true">
+			<pos>0.63 0.020</pos>
+			<size>0.35 0.15</size>
+		</image>
+
+		<image name="logo">
+			<pos>0.805 0.095</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.3 0.12</maxSize>
+		</image>
+
+		<video name="md_video">
+      <origin>0.5 0.5</origin>
+			<pos>0.18 0.29</pos>
+			<maxSize>0.30 0.424</maxSize>
+		</video>
+		
+		<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_gametime">
+			<alignment>right</alignment>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+			<size>0.11 0.02</size>
+		</text>
+
+		<text name="md_releasedate, md_developer, md_publisher, md_genre, md_players, md_lastplayed, md_playcount, md_gametime">
+			<alignment>left</alignment>
+			<fontPath>./art/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+			<size>0.144 0.02</size>
+		</text>
+
+		<image name="back-gamelist" extra="true">
+			<pos>0.63 0.19</pos>
+			<size>0.35 0.735</size>
+			<path>./art/assets/back.png</path>
+		</image>
+
+		<textlist name="gamelist">
+			<pos>0.640 0.205</pos>
+			<size>0.330 0.715</size>
+			<selectorColor>CCCCCC</selectorColor> <!-- Selection bar -->
+			<selectedColor>262626</selectedColor> <!-- Selection letters -->
+			<primaryColor>ffffff</primaryColor> <!-- Letters -->
+			<secondaryColor>CCCCCC</secondaryColor>
+			<fontPath>./art/fonts/TitilliumWeb-SemiBold.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<alignment>left</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+			<scrollSound>./art/sound/scroll.wav</scrollSound>
+		</textlist>
+
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_gametime, md_description">
+			<color>CCCCCC</color>
+		</text>
+
+		<text name="md_releasedate, md_lastplayed, md_developer, md_publisher, md_genre, md_players, md_playcount, md_gametime">
+			<color>ECECEC</color>
+		</text>
+
+		<image name="back-image" extra="true">
+			<pos>0.020 0.02</pos>
+			<size>0.32 0.6</size>
+			<path>./art/assets/back.png</path>
+		</image>
+
+		<text name="md_lbl_rating">
+			<alignment>left</alignment>
+			<pos>0.07 0.54</pos>
+			<forceUppercase>1</forceUppercase>
+		<color>ffffff00</color>	<fontPath>./art/fonts/ubuntu_medium.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+			<size>0.09 0.02</size>
+		</text>
+
+		<rating name="md_rating">
+			<pos>0.112 0.525</pos>
+			<size>0.05 0.05</size>
+			<filledPath>./art/assets/rating_filled.svg</filledPath>
+			<unfilledPath>./art/assets/rating_empty.svg</unfilledPath>
+		</rating>
+
+		<image name="back-information" extra="true">
+			<pos>0.35 0.02</pos>
+			<size>0.27 0.6</size>
+			<path>./art/assets/back.png</path>
+		</image>
+
+		<text name="md_lbl_releasedate">
+			<pos>0.35 0.06</pos>
+		</text>
+
+		<datetime name="md_releasedate">
+			<pos>0.465 0.06</pos>
+		</datetime>
+
+		<text name="md_lbl_developer">
+			<pos>0.35 0.13</pos>
+		</text>
+
+		<text name="md_developer">
+			<pos>0.465 0.13</pos>
+		</text>
+
+		<text name="md_lbl_publisher">
+			<pos>0.35 0.20</pos>
+		</text>
+
+		<text name="md_publisher">
+			<pos>0.465 0.20</pos>
+		</text>
+
+		<text name="md_lbl_genre">
+			<pos>0.35 0.27</pos>
+		</text>
+
+		<text name="md_genre">
+			<pos>0.465 0.27</pos>
+		</text>
+
+		<text name="md_lbl_players">
+			<pos>0.35 0.34</pos>
+		</text>
+
+		<text name="md_players">
+			<pos>0.465 0.34</pos>
+		</text>
+
+		<text name="md_lbl_lastplayed">
+			<pos>0.35 0.41</pos>
+		</text>
+
+		<datetime name="md_lastplayed">
+			<pos>0.465 0.41</pos>
+		</datetime>
+
+		<text name="md_lbl_playcount">
+			<pos>0.35 0.48</pos>
+		</text>
+
+		<text name="md_playcount">
+			<pos>0.465 0.48</pos>
+		</text>
+
+		<text name="md_lbl_gametime">
+			<pos>0.35 0.55</pos>
+		</text>
+
+		<text name="md_gametime">
+			<pos>0.465 0.55</pos>
+		</text>
+
+		<image name="back-description" extra="true">
+			<pos>0.020 0.64</pos>
+			<size>0.6 0.285</size>			<path>./art/assets/back.png</path>
+		</image>
+
+		<text name="md_description">
+			<pos>0.0315 0.665</pos>
+			<size>0.58 0.24</size>
+			<color>eeeeee</color>
+			<lineSpacing>1.4</lineSpacing>
+			<fontSize>0.024</fontSize>
+			<fontPath>./art/fonts/ubuntu_medium.ttf</fontPath>
+		</text>
+	</view>
+</theme>
